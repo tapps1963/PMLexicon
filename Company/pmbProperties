@@ -1,0 +1,4 @@
+user = rootext
+password = Scta1963#
+dbase = demo
+server = jdbc:mysql://10.0.0.5:3306/
