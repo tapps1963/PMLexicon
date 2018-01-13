@@ -1,2 +1,2 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Commit</message>\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>some stuff</message>\n<message>Commit</message>\n<message>Delete 06</message>\n<message>Testing deletion</message>\n<message>c</message>\n<message>a</message>\n<message>Signed-off-by\: shayne &lt;shayne@icon.co.za&gt;</message>\n<message>t</message>\n<message>test&\#x0A;&\#x0A;Signed-off-by\: shayne &lt;shayne@icon.co.za&gt;</message>\n<message>Password check</message>\n</messages>
 eclipse.preferences.version=1

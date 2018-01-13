@@ -641,3 +641,13 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/tapps1
 
 !ENTRY org.eclipse.egit.ui 4 0 2018-01-13 16:22:03.942
 !MESSAGE Can't connect to any repository: https://github.com/tapps1963/PMLexicon (https://github.com/tapps1963/PMLexicon: not authorized)
+!SESSION 2018-01-13 18:49:12.727 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/shayne/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/shayne/git/PMLexicon -product org.eclipse.epp.package.java.product -keyring /Users/shayne/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-01-13 18:49:23.986
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
