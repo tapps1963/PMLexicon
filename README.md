@@ -3,5 +3,5 @@ Plant Maintenance Lexicon
 
 Trying to get the GIT <-> Eclipse working
 
-My oh my
+My oh my word
 
