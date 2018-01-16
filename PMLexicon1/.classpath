@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/Users/shayne/eclipse stuff/Utilities/rs2xml.jar"/>
 	<classpathentry kind="lib" path="/Users/shayne/eclipse stuff/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="C:/test1/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="C:/test1/rs2xml.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
