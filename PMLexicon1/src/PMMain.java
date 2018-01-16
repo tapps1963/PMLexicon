@@ -57,7 +57,7 @@ public class PMMain extends JFrame {
 	// from
 	// the 'Load' Button and the 'Menu' Item and figured out, hahaha that I can
 	// create
-	// a single method and call it from anywhere...
+	// a single method and call it from anywhere.....
 	public void myConnection() {
 		try {
 			String query = "select * from om_obj_str";
