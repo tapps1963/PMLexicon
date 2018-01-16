@@ -1,3 +1,4 @@
+package pml.main;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -5,6 +6,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import net.proteanit.sql.DbUtils;  // a utility
+import pml.mysql.mySqlConnection;
 
 import javax.swing.JLabel;
 import javax.swing.JButton;

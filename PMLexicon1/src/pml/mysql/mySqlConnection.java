@@ -1,3 +1,4 @@
+package pml.mysql;
 import java.io.FileInputStream;
 import java.sql.*;
 import java.util.Properties;
