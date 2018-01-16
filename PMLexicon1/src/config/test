@@ -1,0 +1,4 @@
+user = rootext
+password = Scta1963#
+dbase = demo
+server = jdbc:mysql://shaynet.ddns.net:3306/

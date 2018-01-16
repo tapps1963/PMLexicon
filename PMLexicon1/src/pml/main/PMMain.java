@@ -34,7 +34,7 @@ public class PMMain extends JFrame {
 	 */
 	public static void main(String[] args) {
 		try {
-			UIManager.setLookAndFeel("com.apple.laf.AquaLookAndFeel");
+			//UIManager.setLookAndFeel("com.apple.laf.AquaLookAndFeel");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
