@@ -8,7 +8,6 @@ import javax.swing.border.EmptyBorder;
 import net.proteanit.sql.DbUtils;  // a utility
 import pml.mysql.mySqlConnection;
 
-import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
@@ -18,10 +17,6 @@ import java.awt.event.ActionEvent;
 import java.sql.*;
 import javax.swing.*;
 
-import java.awt.Button;
-import java.awt.Component;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.DefaultMutableTreeNode;
 
