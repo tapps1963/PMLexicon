@@ -2,6 +2,5 @@ INDEX VERSION 1.130+/Users/shayne/git/PMLexicon/.metadata/.plugins/org.eclipse.j
 4236055670.index
 3665656385.index
 817966837.index
-3421928012.index
 2930096982.index
 1204166243.index
