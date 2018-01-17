@@ -1167,3 +1167,17 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2018-01-16 08:15:57.495
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 77 2018-01-16 21:03:06.647
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-01-16 21:03:06.647
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-01-16 21:03:06.647
+!MESSAGE /Users/shayne/git/PMLexicon/Maven overlaps the location of another project: 'Maven'
+
+!ENTRY org.eclipse.core.resources 4 77 2018-01-16 21:04:13.714
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-01-16 21:04:13.714
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-01-16 21:04:13.714
+!MESSAGE /Users/shayne/git/PMLexicon/Maven overlaps the location of another project: 'Maven'
