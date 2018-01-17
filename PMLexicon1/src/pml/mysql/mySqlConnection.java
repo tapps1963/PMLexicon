@@ -18,11 +18,13 @@ public class mySqlConnection {
 			// Load properties file
 			Properties props = new Properties();
 			
-			String fileName = "C:\\Users\\Admin\\git\\PMLexicon\\PMLexicon1\\src\\config\\config.properties";
+			//String fileName = "C:\\Users\\Admin\\git\\PMLexicon\\PMLexicon1\\src\\config\\config.properties";
+			String fileName = "src/config/config.properties";
+			
 			props.load(new FileInputStream(fileName));
 			
 			// Read the properties
-			String myServer = props.getProperty("server");
+			String myServer = props.getProperty("serverinternal");
 			String myUser = props.getProperty("user");
 			String myPassword = props.getProperty("password");
 			String myConnection = myServer + myDB;

@@ -1,11 +1,12 @@
 package pml.main;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import net.proteanit.sql.DbUtils;  // a utility
+import net.proteanit.sql.DbUtils; // a utility
 import pml.mysql.mySqlConnection;
 
 import javax.swing.JButton;
@@ -34,7 +35,7 @@ public class PMMain extends JFrame {
 	 */
 	public static void main(String[] args) {
 		try {
-			UIManager.setLookAndFeel("com.apple.laf.AquaLookAndFeel");
+			// UIManager.setLookAndFeel("com.apple.laf.AquaLookAndFeel");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
@@ -68,12 +69,10 @@ public class PMMain extends JFrame {
 	}
 
 	Connection connection = null;
-	
-	
-	
-	//TODO Atta, please pay attention
+
+	// TODO Atta, please pay attention
 	// This aint the easy part
-	
+
 	/**
 	 * Create the frame.
 	 */
@@ -147,28 +146,26 @@ public class PMMain extends JFrame {
 
 		myJTable = new JTable();
 		scrollPane.setViewportView(myJTable);
-		
+
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(6, 25, 277, 313);
 		contentPane.add(scrollPane_1);
-		
+
 		JTree tree = new JTree();
-		tree.setModel(new DefaultTreeModel(
-			new DefaultMutableTreeNode("JTree") {
-				{
-					add(new DefaultMutableTreeNode("PM Config Treeview"));
-					add(new DefaultMutableTreeNode("BPML Treeview"));
-					add(new DefaultMutableTreeNode("SAP PM Transactions"));
-					add(new DefaultMutableTreeNode("Question Bank"));
-					add(new DefaultMutableTreeNode("Users"));
-					add(new DefaultMutableTreeNode("Extract Tables"));
-					add(new DefaultMutableTreeNode("Long Text"));
-					add(new DefaultMutableTreeNode("Data Migration"));
-					add(new DefaultMutableTreeNode("Settings"));
-					add(new DefaultMutableTreeNode("To Do List"));
-				}
+		tree.setModel(new DefaultTreeModel(new DefaultMutableTreeNode("JTree") {
+			{
+				add(new DefaultMutableTreeNode("PM Config Treeview"));
+				add(new DefaultMutableTreeNode("BPML Treeview"));
+				add(new DefaultMutableTreeNode("SAP PM Transactions"));
+				add(new DefaultMutableTreeNode("Question Bank"));
+				add(new DefaultMutableTreeNode("Users"));
+				add(new DefaultMutableTreeNode("Extract Tables"));
+				add(new DefaultMutableTreeNode("Long Text"));
+				add(new DefaultMutableTreeNode("Data Migration"));
+				add(new DefaultMutableTreeNode("Settings"));
+				add(new DefaultMutableTreeNode("To Do List"));
 			}
-		));
+		}));
 		scrollPane_1.setViewportView(tree);
 	}
 }
