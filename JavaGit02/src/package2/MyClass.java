@@ -19,7 +19,7 @@ public class MyClass {
 			String appUser = appProps.getProperty("user");
 			String appVersion = appProps.getProperty("name", "Default Shayne");
 			String appGroup = appProps.getProperty("group", "Default Group");
-			String appDownloadAddr = appProps.getProperty("downloadAddr");
+			String appDownloadAddr = appProps.getProperty("downloadAddr","Doef doef");
 			
 			System.out.println(appUser);
 			System.out.println(appVersion);
