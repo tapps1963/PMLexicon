@@ -231,7 +231,7 @@ public class MySpecGui {
 
 			byte[] mac = network.getHardwareAddress();
 			
-			//System.out.println(mac);
+			//System.out.println(mac);  
 
 			StringBuilder sb = new StringBuilder();
 			for (int i = 0; i < mac.length; i++) {
