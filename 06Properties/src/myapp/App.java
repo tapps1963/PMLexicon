@@ -26,7 +26,7 @@ public class App {
 	        Properties props = new Properties();
 	        OutputStream out = new FileOutputStream( "app.properties" );
 	        
-	        props.setProperty("user123", "domdom");
+	        props.setProperty("user123", "domste");
 	        
 	        props.store(out, "This is an optional header comment string");
 	        //out.close();
