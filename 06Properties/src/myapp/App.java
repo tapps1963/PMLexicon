@@ -1,6 +1,9 @@
 package myapp;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Properties;
 
 import javax.swing.JOptionPane;
@@ -16,6 +19,28 @@ public class App {
 
 	private static void saveMyProp() {
 		// Properties file path.
+		
+		try {
+			File filePath = new File("app.properties");
+			
+	        Properties props = new Properties();
+	        OutputStream out = new FileOutputStream( "app.properties" );
+	        
+	        props.setProperty("user123", "domdom");
+	        
+	        props.store(out, "This is an optional header comment string");
+	        //out.close();
+	        out.flush();	        
+	        
+	        JOptionPane.showMessageDialog(null, "Tried to write it");
+	        
+	    }
+	    catch (Exception e ) {
+	        System.out.println(e);
+	        JOptionPane.showMessageDialog(null, "Did not write it");
+	    }
+		
+		
 	}
 
 	private static void readMyProp() {
