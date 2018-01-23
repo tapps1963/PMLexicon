@@ -1,34 +1,33 @@
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 import javax.swing.JOptionPane;
 
 public class App {
 
 	public static void main(String[] args) {
-
-		App sample = new App();
 		
-		sample.loadProps1();
-
-	}
-
-	private void loadProps1() {
-		InputStream is = this.getClass().getClassLoader().getResourceAsStream("app.properties");
-		
-		try {
-			Properties prop = new Properties();
-			prop.load(is);
+		// Properties file path
+		String filePath = "app.properties";
+		Properties prop = new Properties();
+				
+		//t//ry (InputStream inputStream = App.class.getClassLoader().getResourceAsStream(filePath)){
 			
-			JOptionPane.showMessageDialog(null, "Made it");
-			prop.list(System.out);
+			// Loading the properties
+			//prop.load(inputStream);
 			
-		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, e);
-			System.out.println(e);
-		}
+			// Getting properties
+			//String url = prop.getProperty("url");
+			
+			JOptionPane.showMessageDialog(null, "Hello");
+			
+			//prop.list(System.out);
+			
+		//} catch (IOException e) {
+			//JOptionPane.showMessageDialog(null, e);
+			//System.out.println(e);
+		//}
 	}
 		
 }
